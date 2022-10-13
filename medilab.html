@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="medilab.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./medilab/lib/OwlCarousel/dist/assets/owl.carousel.css">
+<link rel="stylesheet" href="./medilab/lib/OwlCarousel/dist/assets/owl.theme.default.css">
+<link rel="stylesheet" href="./medilab/lib/lightbox2-2.11.3/dist/css/lightbox.min.css">
+    <script src="https://kit.fontawesome.com/53581fce04.js" crossorigin="anonymous"></script>
+    <title>Medilab</title>
+  </head>
+  <body data-bs-target=".navbar" data-bs-spy="scroll" data-bs-offset="50"> 
+    <div class="container-fluid top ms-auto me-auto">
+      <div class="row justify-content-between container ms-auto me-auto">
+        <div class="col-lg-6 vee">
+          <div class="d-flex flex-wrap" style="font-size:17px ;">
+            <p class="p"><i class="fas fa-envelope"></i> Contact@example.com</p>
+            <p class="p n"><i class="fas fa-mobile-button"></i> +1 5589 55488 55</p>
+          </div>
+        </div>
+        <div class="col-lg-6 ve">
+          <div class="d-flex justify-content-end p text-dark" style="font-size:17px ;">
+            <i class="fab fa-twitter me-3 p"></i>
+            <i class="fab fa-facebook me-3 p"></i>
+            <i class="fab fa-instagram me-3 p"></i>
+            <i class="fab fa-linkedin p"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav
+      class="navbar navbar-expand-lg container-fluid text-light sticky-top"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand">Medilab</a>
+        <a
+        class="btn"
+        id="app"href="#appointment"
+        >Make an Appointment</a
+      >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#bree"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse "id="bree">
+          <ul class="navbar-nav d-inline-flex w-100">
+            <li class="nav-item">
+              <a href="#section" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item ms-2 me-2">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#service" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#department" class="nav-link">Departments</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#doctors" class="nav-link">Doctors</a>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                href=""
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                role="button"
+                >Drop Down</a
+              >
+              <ul class="dropdown-menu">
+                <li><a href="" class="dropdown-item">Dropdown 1</a></li>
+                <li class="dropdown dropstart">
+                  <a
+                    href="#dd"
+                    class="dropdown-item dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                    >Dropdown 2</a
+                  >
+                  <ul class="dropdown-menu" id="dd">
+                    <li><a href="" class="dropdown-item">Dropdown 1</a></li>
+                    <li><a href="" class="dropdown-item">Dropdown 2</a></li>
+                    <li><a href="" class="dropdown-item">Dropdown 3</a></li>
+                  </ul>
+                </li>
+                <li><a href="" class="dropdown-item">Dropdown 3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid d-flex align-items-center" id="section" style="height:600px;">
+      <div class=" pb-5 container" style="position: relative;">
+        <h1>WELCOME TO MEDILAB</h1>
+        <h2>We are team of talented designers making websites with Bootstrap
+        </h2>
+        <a href="#about" type="button" class="btn">Get Started</a>
+      </div>
+    </div>
+    <div class="container-fluid border-success" id="move">
+      <div class="row ms-auto me-auto justify-content-around move" style="width: 95%;">
+        <div class="col-lg-3 not p-3">
+            <h1>Why Choose Medilab?</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+            <div class=" text-center more"><a href="#" class="rounded-pill px-3 py-2 text-light" type="button" style="text-decoration:none;">Learn More</a></div>
+            </div>
+        <div class="col-lg-2 border p-4 text-center align-self-center mt-3">
+          <i class="fa-solid fa-receipt"></i>
+            <h2>Corporis voluptates sit</h2>
+            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+        </div>
+        <div class="col-lg-2 border p-4 text-center align-self-center mt-3">
+          <i class="fas fa-cube"></i>
+            <h2>Ullamco laboris ladore pan</h2>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+        </div>
+        <div class="col-lg-2 border p-4 text-center align-self-center mt-3" >
+          <i class="fas fa-images"></i>
+            <h2>Labore consequatur</h2>
+            <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container-fluid d-flex pt-5 about"style="margin-top:180px" id="about">
+      <div class="row container-fluid ms-auto me-auto hov">
+        <div class="col-md-6">
+          <img src="./medilab/img/about.jpg" alt="" class="img-fluid w-100 h-100">
+        </div>
+        <div class="col-md-6 mt-5">
+          <div class="">
+            <h2>Enim quis est voluptatibus aliquid consequatur fugiat</h2>
+            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+          </div>
+          <div class=" d-flex justify-content-around div">
+            <div class=" align-self-center justify-content-center p-2" style="width:10%">
+              <i class="fas fa-fingerprint d-inline-flex align-items-center justify-content-center" style="width: 100%;height:100%;border-radius:50%;font-size:20px;"></i>
+            </div>
+            <div class="" style="width:85%;">
+              <h4>Lorem Ipsum</h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class=" d-flex justify-content-around div">
+            <div class=" align-self-center justify-content-center p-2" style="width:10%">
+              <i class="fas fa-gift d-inline-flex align-items-center justify-content-center" style="width: 100%;height:100%;border-radius:50%;font-size:20px;"></i>
+            </div>
+            <div class="" style="width:85%;">
+              <h4>Nemo Enim</h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+          <div class=" d-flex justify-content-around div">
+            <div class=" align-self-center justify-content-center p-2" style="width:10%">
+              <i class="fas fa-atom d-inline-flex align-items-center justify-content-center" style="width: 100%;height:100%;border-radius:50%;font-size:20px;"></i>
+            </div>
+            <div class="" style="width:85%;">
+              <h4>Dine Pad</h4>
+              <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="container-fluid p-5 award" style="margin-top:60px;">
+        <div class="row d-flex justify-content-around pb-5" id="award">
+          <div class="col-md-2 text-center mt-5 pb-3" style="position: relative;">
+            <div class="count-box">
+              <i class="fa-solid fa-user-doctor text-light text-center align-items-center justify-content-center d-inline-flex" style="width: 48px;height: 48px; border-radius:50%;font-size:20px;position:absolute; top:-25px;left:50%;transform: translateX(-50%);"></i>
+              <span class="d-block mt-4" style="font-size:3em;">18</span>
+              <p>Doctors</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center mt-5" style="position: relative;">
+            <i class="fa-solid fa-hospital text-light text-center align-items-center justify-content-center d-inline-flex" style="width: 48px;height: 48px; border-radius:50%;font-size:20px;position:absolute; top:-25px;left:50%;transform: translateX(-50%);"></i>
+            <span class="d-block mt-4" style="font-size:3em;">18</span>
+            <p>Departments</p>
+          </div>
+          <div class="col-md-2 text-center mt-5" style="position: relative;">
+            <i class="fa-solid fa-flask text-light text-center align-items-center justify-content-center d-inline-flex" style="width: 48px;height: 48px; border-radius:50%;font-size:20px;position:absolute; top:-25px;left:50%;transform: translateX(-50%);"></i>
+            <span class="d-block mt-4" style="font-size:3em;">12</span>
+            <p>Research Labs</p>
+          </div>
+          <div class="col-md-2 text-center mt-5" style="position: relative;">
+            <i class="fa-solid fa-award text-light text-center align-items-center justify-content-center d-inline-flex" style="width: 48px;height: 48px; border-radius:50%;font-size:20px;position:absolute; top:-25px;left:50%;transform: translateX(-50%);"></i>
+            <span class="d-block mt-4" style="font-size:3em;">150</span>
+            <p>Awards</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mb-5 pt-5" id="service">
+        <div class="container p-5">
+          <div class=" text-center" >
+            <h2 id="before" style="position: relative;">Services</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+        </div>
+        <div class="container-fluid hove">
+          <div class="row d-flex justify-content-center text-center container-fluid ms-auto me-auto hover">
+            <div class="col-md-3 border"style="margin:10px;padding:60px">
+              <i class="fa-solid fa-heart-pulse text-center d-inline-flex align-items-center justify-content-center rounded-3 my-3" style="height:50px;width:50px;font-size: 30px;"></i>
+              <h2>Lorem Ipsum</h2>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+            <div class="col-md-3 border"style="margin:10px;padding:60px">
+              <i class="fa-solid fa-pills my-3 text-center d-inline-flex align-items-center justify-content-center rounded-3" style="height:50px;width:50px;font-size: 30px;"></i>
+              <h2>Sed ut perspiciatis</h2>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+            <div class="col-md-3 border"style="margin:10px;padding:60px">
+              <i class="fa-solid fa-hospital-user text-center my-3 d-inline-flex align-items-center justify-content-center rounded-3" style="height:50px;width:50px;font-size: 30px;"></i>
+              <h2>Magni Dolores</h2>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+            <div class="col-md-3 border"style="margin:10px;padding:60px">
+              <i class="fa-solid fa-dna text-center d-inline-flex my-3 align-items-center justify-content-center rounded-3" style="height:50px;width:50px;font-size: 30px;"></i>
+              <h2>Lorem Ipsum</h2>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+            <div class="col-md-3 border"style="margin:10px;padding:60px">
+              <i class="fa-solid fa-wheelchair text-center d-inline-flex my-3 align-items-center  justify-content-center rounded-3" style="height:50px;width:50px;font-size: 30px;"></i>
+              <h2>Sed ut perspiciatis</h2>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+            <div class="col-md-3 border"style="margin:10px;padding:60px">
+              <i class="fa-solid fa-notes-medical text-center d-inline-flex my-3 align-items-center justify-content-center rounded-3" style="height:50px;width:50px;font-size: 30px;"></i>
+              <h2>Magni Dolores</h2>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid p-5" id="appointment">
+        <div class="container text-center">
+          <h2 id="appoint">Make an Appointment</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <form action="" class="container-fluid ">
+        <div class=" row d-flex justify-content-center container-fluid form">
+            <div class="col-md-4 mt-5" style="height:40px;">
+              <input type="text" placeholder="Your Name" class="w-100 h-100 form-control">
+            </div>
+            <div class="col-md-4 mt-5" style="height:40px;">
+              <input type="email" placeholder="Your Email" class="w-100 h-100 form-control">
+            </div>
+            <div class="col-md-4 mt-5" style="height:40px;">
+              <input type="text" placeholder="Your Phone" class="w-100 h-100 form-control">
+            </div>
+            <div class="col-md-4 mt-5" style="height:40px;">
+              <input type="text" placeholder="Appointment Date" class="w-100 h-100 form-control">
+            </div>
+            <div class="col-md-4 mt-5" style="height:40px;">
+              <select name="" id="select" class="form-select">
+                <option value="">Select Department</option>
+                <option value="">Department 1</option>
+                <option value="">Department 2</option>
+                <option value="">Department 3</option>
+              </select>
+            </div>
+            <div class="col-md-4 mt-5" style="height:40px;">
+              <select name="" id="select" class="form-select">
+                <option value="">Select Doctor</option>
+                <option value="">Doctor 1</option>
+                <option value="">Doctor 2</option>
+                <option value="">Doctor 3</option>
+              </select>
+            </div>    
+            <div class="col-md-12 mt-5">
+              <textarea name="" id="" cols="30" rows="5" class="w-100 p-3 form-control" placeholder="Message(optional)"></textarea>
+            </div>    
+        </div>
+        <div class="mt-5 text-center">
+          <button class="btn btn-primary px-3 rounded-pill">Make an Appointment</button>
+        </div>  
+      </div>
+      </form>
+      </div>
+      <div class="container-fluid p-5" id="department">
+        <div class="container text-center">
+          <h2 id="dept" class="">Departments</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="container-fluid">
+          <div class="row justify-content-around">
+            <div class="col-md-3">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a href="#cardiology" class="nav-link active" data-bs-toggle="tab">Cardiology</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#neurology" class="nav-link" data-bs-toggle="tab">Neurology</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#hepatology" class="nav-link" data-bs-toggle="tab">Hepatology</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#pediatrics" class="nav-link" data-bs-toggle="tab">Pediatrics</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#eye-care" class="nav-link" data-bs-toggle="tab">Eye Care</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-8 ">
+              <div class="tab-content">
+                <div class="tab-pane active" id="cardiology">
+                  <div class="row g-0">
+                    <div class="col-md-8">
+                      <h2 class="mt-3 mb-3">Cardiology</h2>
+                      <i class="mt-3">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</i>
+                      <p class="mt-3">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./medilab/img/departments-1.jpg" class="img-fluid crass" width="80%"
+                      height="80%" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="neurology">
+                  <div class="row g-0">
+                    <div class="col-md-8">
+                      <h2 class="mt-3 mb-3">Et blanditiis nemo veritatis excepturi</h2>
+                      <i class="mt-3">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</i>
+                      <p class="mt-3">Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./medilab/img/departments-2.jpg" class="img-fluid crass" width="80%"
+                      height="80%" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="hepatology">
+                  <div class="row g-0">
+                    <div class="col-md-8">
+                      <h2 class="mt-3 mb-3">Impedit facilis occaecati odio neque aperiam sit</h2>
+                      <i class="mt-3">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</i>
+                      <p class="mt-3">Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./medilab/img/departments-3.jpg" class="img-fluid crass" width="80%"
+                      height="80%" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="pediatrics">
+                  <div class="row g-0">
+                    <div class="col-md-8">
+                      <h2 class="mt-3 mb-3">Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h2>
+                      <i class="mt-3">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</i>
+                      <p class="mt-3">Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./medilab/img/departments-4.jpg" class="img-fluid crass" width="80%"
+                      height="80%" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="eye-care">
+                  <div class="row g-0">
+                    <div class="col-md-8">
+                      <h2 class="mt-3 mb-3">Est eveniet ipsam sindera pad rone matrelat sando reda</h2>
+                      <i class="mt-3">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</i>
+                      <p class="mt-3">Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="./medilab/img/departments-5.jpg" class="img-fluid crass" width="80%"
+                      height="80%";alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="container-fluid doctors p-5" id="doctors">
+          <div class="container text-center">
+            <h2 class="" id="doc">Doctors</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+          <div class="container-fluid cat">
+            <div class="row justify-content-between mt-5 dog" style="margin:0 -9px;">
+              <div class="col-lg-6 rat">
+                <div class="d-flex members align-items-start" style="box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);padding:15px;border-radius: 20px;">
+                  <div class="pic align-self-center ms-4" style="width:30%">
+                    <img src="./medilab/img/doctors/doctors-1.jpg" class="img-fluid" alt="" style="border-radius:50% ;">
+                  </div>
+                  <div class=" align-self-start ms-2" style="width:60%">
+                    <h2 class="mt-3">Walter White</h2>
+                    <span id="chief">Chief Medical Officer</span>
+                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                    <div class="mdia">
+                      <i class="fab fa-twitter d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-facebook d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-instagram d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-linkedin d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                    </div>                                              
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-lg-0 mt-4" style="margin:0 0px;" >
+                <div class="d-flex members align-items-start "style="box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);padding:15px;border-radius: 20px;">
+                  <div class="pic align-self-center ms-4" style="width:30%">
+                    <img src="./medilab/img/doctors/doctors-2.jpg" class="img-fluid" alt="" style="border-radius:50% ;">
+                  </div>
+                  <div class=" align-self-start ms-2" style="width:60%">
+                    <h2 class="mt-3">Sarah Jhonson</h2>
+                    <span id="chief">Anesthesiologist</span>
+                    <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                    <div class="mdia">
+                      <i class="fab fa-twitter d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-facebook d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-instagram d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-linkedin d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-4" style="margin-right:-10px ;">
+                <div class="d-flex members align-items-start" style="box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);padding:15px;border-radius: 20px;">
+                  <div class="pic align-self-center ms-4" style="width:30%">
+                    <img src="./medilab/img/doctors/doctors-3.jpg" class="img-fluid" alt="" style="border-radius:50% ;">
+                  </div>
+                  <div class="align-self-start ms-2" style="width:60%">
+                    <h2 class="mt-3">William Anderson</h2>
+                    <span id="chief">Cardiology</span>
+                    <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                    <div class="mdia">
+                      <i class="fab fa-twitter d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-facebook d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-instagram d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-linkedin d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mt-4" style="margin:0 0px;">
+                <div class="d-flex members align-items-start " style="box-shadow: 0px 2px 15px rgb(44 73 100 / 8%);padding:15px;border-radius: 20px;">
+                  <div class="pic align-self-center ms-4" style="width:30%">
+                    <img src="./medilab/img/doctors/doctors-4.jpg" class="img-fluid" alt="" style="border-radius:50% ;">
+                  </div>
+                  <div class=" align-self-start ms-2" style="width:60%">
+                    <h2 class="mt-3">Amanda Jepson</h2>
+                    <span id="chief">Neurosurgeon</span>
+                    <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                    <div class="mdia">
+                      <i class="fab fa-twitter d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-facebook d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-instagram d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                      <i class="fab fa-linkedin d-inline-flex align-items-center justify-content-center text-light" style="width:30px;height:30px;border-radius:50%;background-color:#1977cc"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid p-5 faq">
+          <div class="container text-center">
+            <h2 class="" id="doc">Frequently Asked Questions</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+          <div class="container-fluid">
+            <div class="accordion" id="accordion-section">
+              <div class="accordion-item ms-auto me-auto mt-3 rounded-2">
+                <h2 class="accordion-header">
+                  <button type="button" class="accordion-button p-4" data-bs-toggle="collapse" data-bs-target="#collapseOne"><i class="fa-regular fa-circle-question"></i>   Non consectetur a erat nam at lectus urna duis?</button>
+                </h2>
+                <div class="accordion-collapse collapse show" id="collapseOne" data-bs-parent="#accordion-section">
+                  <div class="accordion-body">
+                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mt-3 ms-auto me-auto rounded-2">
+                <h2 class="accordion-header">
+                  <button type="button" class="accordion-button p-4" data-bs-toggle="collapse" data-bs-target="#collapsetwo"><i class="fa-regular fa-circle-question"></i>   Feugiat scelerisque varius morbi enim nunc?</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapsetwo" data-bs-parent="#accordion-section">
+                  <div class="accordion-body">
+                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mt-3 ms-auto me-auto rounded-2">
+                <h2 class="accordion-header">
+                  <button type="button" class="accordion-button p-4" data-bs-toggle="collapse" data-bs-target="#collapsethree"><i class="fa-regular fa-circle-question"></i>   Dolor sit amet consectetur adipiscing elit?</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapsethree" data-bs-parent="#accordion-section">
+                  <div class="accordion-body">
+                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mt-3 ms-auto me-auto rounded-2">
+                <h2 class="accordion-header">
+                  <button type="button" class="accordion-button p-4" data-bs-toggle="collapse" data-bs-target="#collapsefour"><i class="fa-regular fa-circle-question"></i>   Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapsefour" data-bs-parent="#accordion-section">
+                  <div class="accordion-body">
+                    <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mt-3 ms-auto me-auto rounded-2">
+                <h2 class="accordion-header">
+                  <button type="button" class="accordion-button p-4" data-bs-toggle="collapse" data-bs-target="#collapsefive"><i class="fa-regular fa-circle-question"></i>   Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapsefive" data-bs-parent="#accordion-section">
+                  <div class="accordion-body">
+                    <p>Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="container">
+            <div class="owl-carousel owl-theme slider">
+              <div class="item mt-5">
+                <div class="row ms-auto me-auto av" >
+                    <div class=" ms-auto me-auto avi" style=" padding:30px;width:85%; position:relative">
+                      <img src="./medilab/img/testimonials/testimonials-1.jpg" alt="" class="img-fluid balance">
+                      <h1 class="mb-4">Saul GoodMan</h1>
+                      <p class="mb-4">Ceo & Founder</p>
+                      <p><i class="fas fa-quote-left"></i>
+                       <i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</i>  <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="item mt-5">
+                <div class="row ms-auto me-auto av" >
+                    <div class=" ms-auto me-auto avi" style=" padding:30px;width:85%; position:relative">
+                      <img src="./medilab/img/testimonials/testimonials-2.jpg" alt="" class="img-fluid balance">
+                      <h1 class="mb-4">Sarah Wilson</h1>
+                      <p class="mb-4">Designer</p>
+                      <p><i class="fas fa-quote-left"></i>
+                       <i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</i>  <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="item mt-5">
+                <div class="row ms-auto me-auto av" >
+                    <div class=" ms-auto me-auto avi" style=" padding:30px;width:85%; position:relative">
+                      <img src="./medilab/img/testimonials/testimonials-3.jpg" alt="" class="img-fluid balance">
+                      <h1 class="mb-4">Jena Karlis</h1>
+                      <p class="mb-4">Store Owner</p>
+                      <p><i class="fas fa-quote-left"></i>
+                       <i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</i>  <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="item mt-5">
+                <div class="row ms-auto me-auto av" >
+                    <div class=" ms-auto me-auto avi" style=" padding:30px;width:85%; position:relative">
+                      <img src="./medilab/img/testimonials/testimonials-4.jpg" alt="" class="img-fluid balance">
+                      <h1 class="mb-4">Matt Brandon</h1>
+                      <p class="mb-4">Freelancer</p>
+                      <p><i class="fas fa-quote-left"></i>
+                       <i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</i>  <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+              </div>
+              <div class="item mt-5">
+                <div class="row ms-auto me-auto av" >
+                    <div class=" ms-auto me-auto avi" style=" padding:30px;width:85%; position:relative">
+                      <img src="./medilab/img/testimonials/testimonials-5.jpg" alt="" class="img-fluid balance">
+                      <h1 class="mb-4">John Larson</h1>
+                      <p class="mb-4">Entrepreneur</p>
+                      <p><i class="fas fa-quote-left"></i>
+                       <i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</i>  <i class="fas fa-quote-right"></i></p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid mt-5 big">
+          <div class="container text-center">
+            <h2 class="" id="doc">Gallery</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+          <div class="row mt-4 bigs g-1">
+              <div class="col-md-3 extend">
+                <a href="./medilab/img/gallery/gallery-1.jpg" data-lightbox="mygallery" data-gallery="example-gallery" class="extend">
+                  <img src="./medilab/img/gallery/gallery-1.jpg" class=" dimension">
+                </a>
+              </div>
+              <div class="col-md-3 extend">
+                <a href="./medilab/img/gallery/gallery-2.jpg" data-lightbox="mygallery" data-gallery="example-gallery" class="extend">
+                  <img src="./medilab/img/gallery/gallery-2.jpg" class="img-fluid dimension">
+                </a>
+              </div>
+              <div class="col-md-3 extend">
+                <a href="./medilab/img/gallery/gallery-3.jpg" data-lightbox="mygallery" data-gallery="example-gallery" class="extend">
+                  <img src="./medilab/img/gallery/gallery-3.jpg" class="img-fluid dimension">
+                </a>
+              </div>
+              <div class="col-md-3 extend">
+                <a href="./medilab/img/gallery/gallery-4.jpg" data-lightbox="mygallery" data-gallery="example-gallery" class="extend">
+                  <img src="./medilab/img/gallery/gallery-4.jpg" class="img-fluid dimension">
+                </a>
+              </div>
+              <div class="col-md-3 extend">
+                <a href="./medilab/img/gallery/gallery-5.jpg" data-lightbox="mygallery" data-gallery="example-gallery" class="extend">
+                  <img src="./medilab/img/gallery/gallery-5.jpg" class="img-fluid dimension">
+                </a>
+              </div>
+              <div class="col-md-3 extend">
+                <a href="./medilab/img/gallery/gallery-6.jpg" data-lightbox="mygallery" data-gallery="example-gallery" class="extend">
+                  <img src="./medilab/img/gallery/gallery-6.jpg" class="img-fluid dimension">
+                </a>
+              </div>
+              <div class="col-md-3 extend">
+                <a href="./medilab/img/gallery/gallery-7.jpg" data-lightbox="mygallery" data-gallery="example-gallery" class="extend">
+                  <img src="./medilab/img/gallery/gallery-7.jpg" class="img-fluid dimension">
+                </a>
+              </div>
+              <div class="col-md-3 extend">
+                <a href="./medilab/img/gallery/gallery-8.jpg" data-lightbox="mygallery" data-gallery="example-gallery" class="extend" data-title="hey">
+                  <img src="./medilab/img/gallery/gallery-8.jpg" class="dimension img-fluid">
+                </a>
+              </div>
+
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div class="container text-center" id="contact">
+            <h2 class="" id="doc">Contact</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+          <div class="container-fluid mt-4" style="padding:0 ;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9489861611523!2d-74.01021037304689!3d40.71913950000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a04152be1b%3A0x3e583fb9cbe2ca78!2sConferences%20at%20Town!5e0!3m2!1sen!2sng!4v1661550364001!5m2!1sen!2sng" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="row mt-4 container ms-auto me-auto g-0">
+            <div class="col-md-4 flex-column  d-flex flex-row justify-content-around ">
+              <div class="d-flex">
+                <div class="align-self-center me-3"><i class="fa-solid fa-location-dot d-inline-flex align-items-center justify-content-center" style="width:40px;height:40px;border-radius:50%;background-color:#f1f7fd;font-size: 20px; color: #1977cc;"></i></div>
+                <div>
+                  <h2 style="color:#2c4964;">Location</h2>
+                  <p style="color:#5b85ab;">A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="align-self-center me-3"><i class="fa-solid fa-envelope d-inline-flex align-items-center justify-content-center" style="width:40px;height:40px;border-radius:50%;background-color:#f1f7fd;font-size: 20px;color: #1977cc;"></i></div>
+                <div>
+                  <h2 style="color:#2c4964;">Email:</h2>
+                  <p style="color:#5b85ab;"> info@example.com</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="align-self-center me-3"><i class="fa-solid fa-mobile-button d-inline-flex align-items-center justify-content-center" style="width:40px;height:40px;border-radius:50%;background-color:#f1f7fd;font-size: 20px;color: #1977cc;"></i></div>
+                <div>
+                  <h2 style="color:#2c4964;">Call:</h2>
+                  <p style="color:#5b85ab;">+1 5589 55488 55s</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 ">
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6 mt-3">
+                    <input type="text" placeholder="Your Name" class="form-control p-3" style="border-radius:0;">
+                  </div>
+                  <div class="col-md-6 mt-3">
+                    <input type="text" placeholder="Your Email" class="form-control p-3" style="border-radius:0;">
+                  </div>
+                  <div class="col-md-12 mt-3">
+                    <input type="text" placeholder="Subject" class="form-control p-3" style="border-radius:0;">
+                  </div>
+                  <div class="col-md-12 mt-3">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Message" class="form-control p-3" style="border-radius:0;"></textarea>
+                  </div>
+                  <input type="submit" value="Send Message" class="mt-3 rounded-pill py-2 bg-primary text-light border-0" style="width:30%;margin-left:auto;margin-right:auto;">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class=" p-5 mt-5 m-0 container-fluid" style="box-shadow: 0px 2px 15px rgb(25 119 204 / 10%); background-color: #fff;">
+          <div class="row justify-content-around" style="padding:0 40px 0 40px">
+            <div class="col-md-2 text-left p-0" style="color:#444444;">
+              <h3>Medilab</h3>
+              <p>A108 Adam Street <br>
+                New York, NY 535022 <br>
+                United States</p>
+                <div class="mt-4">
+                  <p class="mb-0"><span style="font-weight:600; font-size:17px;">Phone:</span> +1 5589 55488 55</p>
+                  <p class="mt-0"><span style="font-weight:600; font-size:17px;">Email:</span> info@example.com</p>
+                </div>
+            </div>
+            <div class="col-md-2 text-left p-0" style="color:#444444;">
+              <h3>Useful Links</h3>
+              <ul class="nav nav-bar flex-column">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>
+                     Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>
+                    About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>                    Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>
+                    Terms of Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>
+                    Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 text-left p-0" style="color:#444444;">
+              <h3>Our Services</h3>
+              <ul class="nav nav-bar flex-column">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>
+                     Web Design</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>
+                    Web Development</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i> Product Management</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>
+                    Marketing</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link" style="color:#444444;"><li class="nav-item"><i class="fa-solid fa-angle-right"></i>
+                    Graphic Design</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 text-left p-0" style="color:#444444;">
+              <h3>Join Our Newsletter</h3>
+              <p class="mt-4">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <form action="" class="border-primary rounded-pill border p-2 mt-4" style="position:relative;">
+                <input type="text" class="border-0 w-75">
+                <input type="submit" value="Subscribe" class=" bg-primary rounded-pill border-0 py-3 px-5 text-light" style="position:absolute;
+                top:0;bottom:0;right:0;">
+              </form>
+            </div>
+        </div>
+        </div>
+        <div style="position:fixed ; bottom: 10px;right:10px;">
+          <a href="#top" class="btn btn-primary py-3 px-4"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+        <footer class="container-fluid px-5 py-3" styl="background-color:#f1f7fd;">
+          <div class="row container-fluid ms-auto me-auto justify-content-between px-5">
+            <div class="col-md-4">
+              <p>&copy Copyright <span style="font-weight:600;">Medilab</span>.All Rights Reserved</p>
+            <p class="text-lg-start">Designed by <a href="#" style="text-decoration: none;">BootstrapMade</a></p>
+          </div>
+            <div class="col-md-4 align-items-center d-flex justify-content-center">
+              <i class="fab fa-twitter d-inline-flex align-items-center justify-content-center me-2" style="width:40px;height:40px;border-radius:50%;background-color:#1977cc;font-size: 20px;color:#fff;"></i>
+              <i class="fab fa-facebook d-inline-flex align-items-center justify-content-center me-2" style="width:40px;height:40px;border-radius:50%;background-color:#1977cc;font-size: 20px;color:#fff;"></i>
+              <i class="fab fa-instagram d-inline-flex align-items-center justify-content-center me-2" style="width:40px;height:40px;border-radius:50%;background-color:#1977cc;font-size: 20px;color:#fff;"></i>
+              <i class="fab fa-skype d-inline-flex align-items-center justify-content-center me-2" style="width:40px;height:40px;border-radius:50%;background-color:#1977cc;font-size: 20px;color:#fff;"></i>
+              <i class="fab fa-linkedin d-inline-flex align-items-center justify-content-center" style="width:40px;height:40px;border-radius:50%;background-color:#1977cc;font-size: 20px;color:#fff;"></i>
+            </div>
+          </div>
+        </footer>
+        <script src="./medilab/lib/jquery-3.6.1.min.js"></script>
+        <script src="./medilab/lib/OwlCarousel/dist/owl.carousel.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./medilab/lib/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $(".owl-carousel").owlCarousel();
+      });
+  
+      $('.owl-carousel').owlCarousel({
+          items:2,
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsiveClass: true,
+          autoplay:true,
+          autoplayTimeout:3000,
+          autoplayHoverPause:true,
+          responsive: {
+              0: {
+                  items:1
+              },
+              1000: {
+                  items: 2
+              }
+          }
+      })
+  </script>
+  </body>
+</html>

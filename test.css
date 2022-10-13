@@ -1,0 +1,45 @@
+*{
+    margin:0;
+padding:0;
+}
+nav{
+width:90%;
+margin-left:10%;
+background-color: cadetblue;
+padding-top: 8px;
+padding-bottom:8px;
+text-align: right;
+}
+
+ul{
+    list-style-type:none;
+    
+}
+
+li{
+display: inline;
+margin: 0%;
+}
+li a{
+    display:inline;
+padding: 10px;
+text-decoration: none;
+color:black;
+margin-left:-5px;
+}
+
+li a:hover{
+    background-color: black;
+    color:white
+}
+.home{
+margin-left:5px;
+}
+.first{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid;
+    height:200px;
+    background-image: url(Images/coffee.jpg);
+}

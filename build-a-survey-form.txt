@@ -1,0 +1,93 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill in correctly.</p>
+    <form id="survey-form">
+      <fieldset>
+     <label id="name-label">Name: <input type="text" id="name" required="" placeholder="Oyero Temitope"/></label>   
+       <label id="email-label">Email: <input type="email" id="email" required="" placeholder="mark2018@gmail.com" /></label> 
+       <label id="number-label">Number: <input type="number" id="number" min="18" max="60" placeholder="18" /></label> 
+      </fieldset>
+      <fieldset>
+        <input type="radio" name="account-type" value="4"/> <label>Personal</label>
+        <input type="radio" name="account-type" value="5"/> <label>Business</label>
+        <input type="radio" name="account-type" value="6"/> <label>Others</label>
+      </fieldset>
+      <fieldset>
+           <input type="checkbox" value="1"/> <label>Personal</label>
+        <input type="checkbox" value="2"/> <label>Business</label>
+        <input type="checkbox" value="3"/> <label>Other</label>
+      </fieldset>
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+        <select id="dropdown" required="">
+          <option>(select one)</option>
+          <option>Whatsapp</option>
+          <option>Instagram</option>
+          <option>Facebook</option>
+          <option>Linkedin</option>
+                    <option>other</option>
+        </select>
+        <textarea id="bio" placeholder="i love coding on the beach" rows="3" cols="30"></textarea>
+      </fieldset>
+      <fieldset>
+        <input type="submit" id='submit'value="submit"/>
+      </fieldset>
+    </form>
+  </head>
+  <body></body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  background-color:#2f2f6d;
+  font-weight:bold;
+}
+fieldset{
+  border:0;
+  margin-top:0px;
+  margin-bottom:10px
+}
+form{
+  max-width:500px;
+  min-width:300px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+p,h1{
+text-align:center;
+color:#ffffff;
+}
+input{
+  display:block;
+  width:100%;
+background-color:#2f2f5f;
+border-color:#2f2f5f;
+min-height:2em;
+}
+input[type="radio"]{
+  display:inline;
+  width:unset;
+}
+input[type="checkbox"]{
+  display:inline;
+  width:unset;
+}
+select{
+  width:100%;
+  min-height:2em;
+}
+
+
+** end of undefined **
+

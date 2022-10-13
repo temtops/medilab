@@ -1,0 +1,490 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+font-family: "open sans", sans-serif;
+color:#444444
+}
+form >input[type="text"]:focus{
+    outline:2px solid black;
+}
+form >input[type="text"]{
+    height: 2rem;
+    font-size: 20px;
+
+}
+.navbar{
+    background-color: #fff;
+    box-shadow: 0px 2px 15px rgb(25 119 204 / 10%);
+}
+.navbar .navbar-brand{
+    
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+    color: #2c4964;
+}
+#bree{
+    font-size:1.4em;
+}
+#bree .navbar-nav .nav-item .nav-link{
+    color:#2c4964;
+    font-size:14px;
+}
+#bree .navbar-nav .nav-item .nav-link:hover{
+    color: #1977cc;
+    border-bottom: 2px solid #1977cc;
+}
+#bree .navbar-nav .nav-item .active{
+    color: #1977cc;
+    border-bottom: 2px solid #1977cc;
+}
+#bree .navbar-nav{
+    position: relative;
+    justify-content:center;
+    
+}
+.top .row .vee{
+}
+.top .row .vee .n{
+    margin-left:20px
+
+}
+#section{
+    background: url("./medilab/img/hero-bg.jpg") top center;
+    background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+#section div>h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #2c4964;
+    font-family: "Raleway", sans-serif;
+}
+#section div>h2{
+    color: #2c4964;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+#section div>a{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 35px;
+    margin-top: 30px;
+    border-radius: 50px;
+    color: #fff;
+    background: #1977cc;
+}
+
+#why{
+    position: absolute;
+    top:80%;
+    left:0%;
+}
+#app{
+    margin-left: 25px;
+    background: #1977cc;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    position:absolute;
+    right:10%
+}
+#mew{
+    box-shadow: 1px 2px 8px rgba(21, 142, 255, 0.229);
+    background-color: white;
+}
+#mew img{
+    margin:20px 0;
+}
+#mew p{
+margin:10px 0 20px 0;
+}
+#move{
+    position:absolute;
+    top:90%;
+}
+#move .move div:not(.not){
+background-color: #fff;
+box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+border-radius: 20px;
+}
+#move .move .not{
+    background-color:#5283cd;
+    color:#fff;
+}
+#move .move .not>div{
+    background-color: #5283cd;
+}
+#move .move .not> .more{
+    background-color:rgba(255, 255, 255, 0.2);
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#move .move .not> .more:hover{
+    color: #1977cc;
+    background-color: #fff;
+}
+#move .move div>h2{
+    font-size: 20px;
+}
+#move .move div>p{
+font-size: 15px;
+}
+#move .move div > i {
+    background-color: #fff;
+    font-size:32px;
+    color:#1977cc
+}
+h1,h2,h3,h4{
+font-family:"raleway", sans-serif;
+}
+
+#before::before{
+
+    content: "";
+    height: 1px;
+    background-color:#dddddd;
+    width:120px;
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left:calc(50% - 60px);
+}
+#before::after{
+    content: "";
+    height: 3px;
+    background-color:#1977cc;
+    width:40px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left:calc(50% - 20px);
+}
+#about{
+    background-color: #fff;
+    color: #2c4964;
+}
+#about p{
+    color:black;
+}
+#about .hov .div:hover i{
+    background-color: #1977cc;
+    color: #fff;
+}
+#about .hov .div i{
+border:1px solid #1977cc;
+padding:15px;
+color: #1977cc;
+}
+#about .hov div h2{
+    font-size: 28px;
+    font-weight: 900;
+}
+#before{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+#service{
+    background-color: #fff;
+}
+#service .hove .hover div:hover{
+    background-color: #1977cc;
+    color: #fff;
+}
+#service .hove .hover div:hover i{
+    background-color: #fff;
+    color: #1977cc;
+}
+#service .hove .hover div i{
+    background-color: #1977cc;
+    color: #fff;
+    box-shadow: -8px -5px 0px #badaf7;
+}
+#appointment{
+    background-color: #f1f7fd;
+}
+#appointment form .form div input,#appointment form .form div select,#appointment form .form div textarea{
+    border-radius: 0%;
+}
+#appoint{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+#appoint::before{
+    content: "";
+    height: 1px;
+    background-color:#dddddd;
+    width:120px;
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left:calc(50% - 60px);
+}
+#appoint::after{
+    content: "";
+    height: 3px;
+    background-color: #1977cc;
+    width:40px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left:calc(50% - 20px);
+}
+#select{
+    width:100%;
+    height:40px;
+}
+.award{
+    background-color: #f1f7fd;
+}
+.award #award div{
+    background-color: #fff;
+}
+.award #award div>i{
+    background-color: #1977cc;
+}
+#dept{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+#department{
+    background-color: #fff;
+}
+#dept::before{
+    content: "";
+    height: 1px;
+    background-color:#dddddd;
+    width:120px;
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left:calc(50% - 60px);
+}
+#dept::after{
+    content: "";
+    height: 3px;
+    background-color:#1977cc;
+    width:40px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left:calc(50% - 20px);
+}
+#li:focus{
+    border-right-color: blue;
+    border-right-width:1px ;
+}
+#li{
+    border-right:1px solid grey;
+    border-radius: 0;
+}
+.wr{
+    border-right: 1px solid blue;
+}
+/* #cardiology,#neurology,#hepatology,#pediatrics,#eye-care{
+    position:absolute;
+} */
+.nav-tabs .nav-item .nav-link{
+    padding:0.7rem;
+    font-size:1.5rem;
+    border-right:2px solid #ebf1f6;
+    border-radius:0;
+    font-weight: 700;
+    border-left:3px solid white;
+    border-top:0px solid white;
+    border-bottom:0px solid white;
+    color:#2c4964;
+
+}
+.nav-tabs{
+    border-bottom:1px solid white;
+}
+.dimension{
+    width:100%;
+    height:100%;
+}
+.nav-tabs .nav-item .active{
+    background-color: white;
+    border-right:2px solid #1977cc; 
+    color:#1977cc;
+}
+#doc{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+#doc::before{
+    content: "";
+    height: 1px;
+    background-color:#dddddd;
+    width:120px;
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left:calc(50% - 60px);
+}
+#doc::after{
+    content: "";
+    height: 3px;
+    background-color:#1977cc;
+    width:40px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left:calc(50% - 20px);
+}
+.members:hover .pic>img{
+    transition: ease-in-out 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transform: scale(1.1, 1.1);
+}
+.doctors .members .pic{
+    overflow: hidden;
+    border-radius: 50%;
+}
+#chief:after{
+    content:"";
+    width:60px;
+    height:1px;
+    display: block;
+    background-color: grey;
+    position:absolute;
+    bottom:0;
+}
+#chief{
+    position:relative;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    display: block;
+    font-size:17px;
+}
+.accordion-header .accordion-button i{
+    color:blue;
+}
+.accordion-header .accordion-button{
+    background-color: white;
+    border-bottom-color: white;
+    font-size: 17px;
+}
+.accordion-header .accordion-button:focus{
+    background-color: white;
+    border:none;
+
+}
+.acordion-item{
+}
+.accordion-header .accordion-button:hover{
+    color:#1977cc;
+}
+.accordion-item{
+    border:none;
+    width:90%;
+}
+.p{
+    margin-bottom: 0;
+}
+
+.big .bigs .extend:hover img{
+    transition: ease-in-out 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transform: scale(1.1, 1.1);
+}
+.big .bigs .extend{
+    overflow: hidden;
+}
+@media only screen and (max-width:1000px) {
+    #about{
+    }
+    #move{
+        position: relative;
+        margin-bottom: -100px;
+    }
+}
+@media only screen and (max-width:770px){
+    #department div > .crass{
+        width: 100%;
+        height: 100%;
+    }
+}
+.owl-theme .item .av .avi> img {
+    position:absolute;
+    width:13%;
+    left:-9%;
+    border-radius: 5px;
+}
+.owl-theme .item .av .avi{
+    box-shadow: 0px 2px 12px rgba(44 73 100 / 8%);
+}
+@media only screen and (max-width:600px){
+    .owl-theme .item .av .avi> img{
+         position: relative;
+         width:20%;
+         margin-left: 30px;
+         margin-bottom: 20px;
+     }
+ }
+ @media only screen and (max-width:600px){
+    #app{
+        position: relative;
+        margin-right: -40px;
+    }
+ }
+ @media only screen and (max-width:995px){
+    .top .row .ve{
+        display: none;
+    }
+ }
+ @media only screen and (max-width:430px){
+    .top .row .vee .n{
+        margin-left:0px;
+    }
+ }
+#doctors{
+    background-color: #fff;
+}
+#doctors .cat .dog .rat>i{
+    background-color: #1977cc;
+}
+.top{
+    background-color: white;
+    border: 0;
+}
+.top div>i,p>i{
+    color:#5283cd;
+}
+.faq{
+    background-color: #f1f7fd;
+}
